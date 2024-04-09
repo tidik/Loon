@@ -1,0 +1,18 @@
+# > Google Domestic CDNs
+DOMAIN,clientservices.googleapis.com,DIRECT
+DOMAIN,fonts.googleapis.com,DIRECT
+DOMAIN,fonts.gstatic.com,DIRECT
+DOMAIN,ocsp.pki.goog,DIRECT
+DOMAIN,crl.pki.goog,DIRECT
+DOMAIN,redirector.c.bigcache.googleapis.com,DIRECT
+DOMAIN,redirector.gvt1.com,DIRECT
+DOMAIN,safebrowsing.googleapis.com,DIRECT
+DOMAIN,safebrowsing-cache.google.com,DIRECT
+DOMAIN-SUFFIX,dl.google.com,DIRECT
+DOMAIN-SUFFIX,dl.l.google.com,DIRECT
+DOMAIN-SUFFIX,google.cn,DIRECT
+DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
+DOMAIN-SUFFIX,ssl.gstatic.com,DIRECT
+DOMAIN-SUFFIX,tools.google.com,DIRECT
+DOMAIN-SUFFIX,tools.l.google.com,DIRECT
+DOMAIN-SUFFIX,update.googleapis.com,DIRECT

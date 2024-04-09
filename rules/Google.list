@@ -1,0 +1,96 @@
+# >> Google
+DOMAIN-KEYWORD,google,Google
+DOMAIN-SUFFIX,265.com,Google
+
+# > Alphabet Websites 
+DOMAIN-SUFFIX,abc.xyz,Google
+DOMAIN-SUFFIX,capitalg.com,Google
+
+# > Android
+DOMAIN-SUFFIX,android.com,Google
+DOMAIN-SUFFIX,androidify.com,Google
+
+# > Appspot
+DOMAIN-KEYWORD,appspot,Google
+
+# > Chrome & Chromium
+DOMAIN-SUFFIX,chrome.com,Google
+DOMAIN-SUFFIX,chromeexperiments.com,Google
+DOMAIN-SUFFIX,chromestatus.com,Google
+DOMAIN-SUFFIX,chromium.org,Google
+DOMAIN-SUFFIX,whatbrowser.org,Google
+
+# > Google AI
+DOMAIN-SUFFIX,autodraw.com,Google
+DOMAIN-SUFFIX,deepmind.com,Google
+DOMAIN-SUFFIX,tensorflow.org,Google
+DOMAIN-SUFFIX,tfhub.dev,Google
+
+# > Google APIs
+DOMAIN,translate.googleapis.com,Google
+DOMAIN-SUFFIX,googleapis.com,Google
+
+# > Google Blogger
+DOMAIN-KEYWORD,blogspot,Google
+DOMAIN-SUFFIX,blogger.com,Google
+DOMAIN-SUFFIX,googleblog.com,Google
+
+# > Google Cloud Platform
+DOMAIN-SUFFIX,dialogflow.com,Google
+DOMAIN-SUFFIX,gcp.gvt2.com,Google
+
+# > Google Developer
+DOMAIN-KEYWORD,googlesource,Google
+DOMAIN-SUFFIX,godoc.org,Google
+DOMAIN-SUFFIX,golang.org,Google
+DOMAIN-SUFFIX,googlemashups.com,Google
+DOMAIN-SUFFIX,gwtproject.org,Google
+DOMAIN-SUFFIX,itasoftware.com,Google
+DOMAIN-SUFFIX,pkg.go.dev,Google
+DOMAIN-SUFFIX,shattered.io,Google
+DOMAIN-SUFFIX,waveprotocol.org,Google
+DOMAIN-SUFFIX,webmproject.org,Google
+DOMAIN-SUFFIX,webrtc.org,Google
+DOMAIN-SUFFIX,withgoogle.com,Google
+
+# > Google Education
+DOMAIN-SUFFIX,madewithcode.com,Google
+
+# > Google Enterprise
+DOMAIN-SUFFIX,synergyse.com,Google
+
+# > Gmail
+DOMAIN-KEYWORD,gmail,Google
+
+# > Google Recaptcha
+DOMAIN-KEYWORD,recaptcha,Google
+
+# > Google Static Files
+DOMAIN-SUFFIX,gstatic.com,Google
+DOMAIN-SUFFIX,gmodules.com,Google
+DOMAIN-SUFFIX,googleusercontent.com,Google
+DOMAIN-SUFFIX,gvt0.com,Google
+DOMAIN-SUFFIX,gvt1.com,Google
+DOMAIN-SUFFIX,gvt3.com,Google
+
+# > Google VR
+DOMAIN-SUFFIX,tiltbrush.com,Google
+
+# > Material Design
+DOMAIN-SUFFIX,getmdl.io,Google
+DOMAIN-SUFFIX,material.io,Google
+
+# > Other
+DOMAIN-SUFFIX,blog.google,Google
+DOMAIN-SUFFIX,certificate-transparency.org,Google
+DOMAIN-SUFFIX,certificate-transparency.dev,Google
+DOMAIN-SUFFIX,creativelab5.com,Google
+DOMAIN-SUFFIX,debug.com,Google
+DOMAIN-SUFFIX,gv.com,Google
+DOMAIN-SUFFIX,polymer-project.org,Google
+DOMAIN-SUFFIX,waymo.com,Google
+DOMAIN-SUFFIX,widevine.com,Google
+DOMAIN-SUFFIX,x.company,Google
+# > Google IP-CIDR
+IP-CIDR,173.194.0.0/16,Google
+IP-CIDR,74.125.0.0/16,Google

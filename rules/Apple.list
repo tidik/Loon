@@ -1,0 +1,70 @@
+#  ---  Apple --- 
+# > Apple Websites
+DOMAIN-SUFFIX,aaplimg.com,Apple
+DOMAIN-SUFFIX,apple.co,Apple
+DOMAIN-SUFFIX,digicert.com,Apple
+DOMAIN-SUFFIX,apple.com,Apple
+DOMAIN-SUFFIX,apple.com.cn,Apple
+DOMAIN-KEYWORD,apple.*,Apple
+DOMAIN-KEYWORD,apple.com.*,Apple
+DOMAIN-SUFFIX,itunes.com,Apple
+DOMAIN-SUFFIX,me.com,Apple
+# > Apple CIDR
+IP-CIDR,17.0.0.0/8,Apple
+IP-CIDR,63.92.224.0/19,Apple
+IP-CIDR,65.199.22.0/23,Apple
+IP-CIDR,139.178.128.0/18,Apple
+IP-CIDR,144.178.0.0/19,Apple
+IP-CIDR,144.178.36.0/22,Apple
+IP-CIDR,144.178.48.0/20,Apple
+IP-CIDR,192.35.50.0/24,Apple
+IP-CIDR,198.183.17.0/24,Apple
+IP-CIDR,205.180.175.0/24,Apple
+# > Apple Stores
+DOMAIN,apps.apple.com,Apple
+DOMAIN,iosapps.itunes.apple.com,Apple
+DOMAIN,osxapps.itunes.apple.com,Apple
+DOMAIN-SUFFIX,appsto.re,Apple
+DOMAIN-SUFFIX,mzstatic.com,Apple
+# > Apple Developer
+DOMAIN-KEYWORD,appleworldwidedeveloper.*.net,Apple
+DOMAIN-SUFFIX,adcdownload.apple.com,Apple
+DOMAIN-SUFFIX,developer.apple.com,Apple
+# >> Location Service
+DOMAIN-SUFFIX,ls.apple.com,Apple
+# >> Push Service
+DOMAIN,init-p01md.apple.com,Apple
+DOMAIN,init-p01st.push.apple.com,Apple
+DOMAIN,init-s01st.push.apple.com,Apple
+DOMAIN-SUFFIX,courier-push-apple.com.akadns.net,Apple
+DOMAIN-SUFFIX,push.apple.com,Apple
+# >> Other Service
+DOMAIN,amp-api.apps.apple.com,Apple
+DOMAIN,api.smoot.apple.cn,Apple
+DOMAIN-SUFFIX,safebrowsing.apple,Apple
+# > Apple Kit
+DOMAIN-SUFFIX,apple-cloudkit.com,Apple
+DOMAIN-SUFFIX,apple-mapkit.com,Apple
+DOMAIN-SUFFIX,apple-livephotoskit.com,Apple
+# > Apple Resources Server
+DOMAIN,testflight.apple.com,Apple
+DOMAIN-SUFFIX,appldnld.apple.com,Apple
+DOMAIN-SUFFIX,secure-appldnld.apple.com,Apple
+DOMAIN-SUFFIX,itunesu.assets.itunes.com,Apple
+# > Apple CDNs
+DOMAIN,updates-http.cdn-apple.com,Apple
+DOMAIN-SUFFIX,apple-support.akadns.net,Apple
+DOMAIN-SUFFIX,apple.com.akadns.net,Apple
+DOMAIN,adcdownload.apple.com.akadns.net,Apple
+DOMAIN-SUFFIX,apple.com.cdn20.com,Apple
+DOMAIN-SUFFIX,apple.com.edgekey.net.globalredir.akadns.net,Apple
+DOMAIN-SUFFIX,apple.com.mwcname.com,Apple
+DOMAIN-SUFFIX,apple.com.mwcloudcdn.com,Apple
+DOMAIN-SUFFIX,cdn-apple.com,Apple
+DOMAIN-SUFFIX,cdn-apple.com.akadns.net,Apple
+DOMAIN-SUFFIX,isu.apple.com.akadns.net,Apple
+DOMAIN-SUFFIX,itunes-apple.com.akadns.net,Apple
+DOMAIN-SUFFIX,itunes.com.edgekey.net,Apple
+DOMAIN-SUFFIX,origin-apple.com.akadns.net,Apple
+DOMAIN-SUFFIX,push-apple.com.akadns.net,Apple 
+DOMAIN-SUFFIX,prod-support.apple-support.akadns.net,Apple

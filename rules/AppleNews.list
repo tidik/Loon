@@ -1,0 +1,6 @@
+# --- AppleNews  --- 
+DOMAIN,news-assets.apple.com,OutSide
+DOMAIN,news-client.apple.com,OutSide
+DOMAIN,news-edge.apple.com,OutSide
+DOMAIN,news-events.apple.com,OutSide
+DOMAIN-SUFFIX,apple.news,OutSide

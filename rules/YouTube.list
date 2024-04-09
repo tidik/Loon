@@ -1,0 +1,26 @@
+# --- YouTube ---
+USER-AGENT,com.google.ios.youtube*,YouTube
+USER-AGENT,YouTube*,YouTube
+DOMAIN-SUFFIX,googlevideo.com,YouTube
+DOMAIN-SUFFIX,youtube.com,YouTube
+DOMAIN,youtubei.googleapis.com,YouTube
+DOMAIN-SUFFIX,youtube,YouTube
+DOMAIN-SUFFIX,ggpht.cn,YouTube
+DOMAIN-SUFFIX,ggpht.com,YouTube
+DOMAIN-SUFFIX,googlevideo.com,YouTube
+DOMAIN-SUFFIX,gvt2.com,YouTube
+DOMAIN-SUFFIX,withyoutube.com,YouTube
+DOMAIN-SUFFIX,youtu.be,YouTube
+DOMAIN-SUFFIX,youtube-nocookie.com,YouTube
+DOMAIN-SUFFIX,youtube.co,YouTube
+DOMAIN-SUFFIX,youtube.com,YouTube
+DOMAIN-SUFFIX,youtubeeducation.com,YouTube
+DOMAIN-SUFFIX,youtubefanfest.com,YouTube
+DOMAIN-SUFFIX,youtubegaming.com,YouTube
+DOMAIN-SUFFIX,youtubei.googleapis.com,YouTube
+DOMAIN-SUFFIX,youtubekids.com,YouTube
+DOMAIN-SUFFIX,youtubemobilesupport.com,YouTube
+DOMAIN-SUFFIX,yt.be,YouTube
+DOMAIN-SUFFIX,ytimg.com,YouTube
+IP-CIDR,172.110.32.0/21,YouTube
+IP-CIDR,216.73.80.0/20,YouTube
