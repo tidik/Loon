@@ -94,6 +94,6 @@
      let conHost = $session.conHost
      let conPort = $session.conPort
  
-     var header = `CONNECT ${conHost}:${conPort} HTTP/1.1\r\n\rhost:mmsc.myuni.com.cn\r\rHost:${conHost}\r\nConnection: keep-alive\r\nUser-Agent:Loon2.1.18\r\nProxy-Connection: keep-alive\r\n\r\n`
+     var header = `CONNECT ${conHost}:${conPort} HTTP/1.1\r\nhost:mmsc.myuni.com.cn\r\rHost:${conHost}\r\nConnection: keep-alive\r\nUser-Agent:Loon2.1.18\r\nProxy-Connection: keep-alive\r\n\r\n`
      $tunnel.write($session, header)
  }
