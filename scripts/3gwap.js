@@ -95,4 +95,7 @@
      let conPort = $session.conPort
      var header = `CONNECT ${conHost}:${conPort} HTTP/1.1\r\nHost:box.10155.com\r\nX-Online-Host:listen.10155.com\r\nConnection: keep-alive\r\nProxy-Connection: keep-alive\r\n\r\n`
      $tunnel.write($session, header)
+     console.log(header);
+     console.log("----tunnel----");
+     console.log($tunnel);
  }
