@@ -58,11 +58,15 @@
  
  function tunnelTLSFinished() {
      _writeHttpHeader()
+     console.log("----tunnelTLSFinished----");
+     console.log($tunnel);
      httpStatus = HTTP_STATUS_CONNECTED
      return true
  }
  
  function tunnelDidRead(data) {
+    console.log("----tunnelDidRead----");
+     console.log($tunnel);
      if (httpStatus == HTTP_STATUS_WAITRESPONSE) {
          //check http response code == 200
          //Assume success here
@@ -76,6 +80,8 @@
  }
  
  function tunnelDidWrite() {
+    console.log("----tunnelDidWrite----");
+     console.log($tunnel);
      if (httpStatus == HTTP_STATUS_CONNECTED) {
          console.log("write http head success")
          httpStatus = HTTP_STATUS_WAITRESPONSE
@@ -96,6 +102,6 @@
      var header = `CONNECT ${conHost}:${conPort} HTTP/1.1\r\nHost:box.10155.com\r\nX-Online-Host:listen.10155.com\r\nConnection: keep-alive\r\nProxy-Connection: keep-alive\r\n\r\n`
      $tunnel.write($session, header)
      console.log(header);
-     console.log("----tunnel----");
-     console.log($tunnel);
+    //  console.log("----tunnel----");
+    //  console.log($tunnel);
  }
