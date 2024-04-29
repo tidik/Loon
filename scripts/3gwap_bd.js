@@ -1,5 +1,5 @@
 /***
- * 钉钉百度直连
+ * 沃音乐百度直连
  */
 let HTTP_STATUS_INVALID = -1;
 let HTTP_STATUS_CONNECTED = 0;
