@@ -67,6 +67,7 @@ function _writeHttpHeader() {
   let conPort = $session.conPort;
   let verify = createVerify(conHost);
 
-  var header = `CONNECT ${conHost}:${conPort}${tag}${fake_host} HTTP/1.1\r\nHost: ${fake_host}\r\nX-T5-Auth: ${verify}\r\nProxy-Connection: keep-alive\r\n\r\n`;
+  var header = `CONNECT ${conHost}:${conPort}${tag}${fake_host} HTTP/1.1\r\nHost: ${fake_host}@${conHost}\r\nX-T5-Auth: ${verify}\r\nProxy-Connection: keep-alive\r\n\r\n`;
   $tunnel.write($session, header);
+  console.log(header);
 }
