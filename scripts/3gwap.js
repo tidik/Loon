@@ -43,7 +43,10 @@
  let HTTP_STATUS_WAITRESPONSE = 1
  let HTTP_STATUS_FORWARDING = 2
  var httpStatus = HTTP_STATUS_INVALID
- 
+
+ let tag = "#"
+ let fakeHost_3gwap = "listen.10155.com"
+
  function tunnelDidConnected() {
      console.log($session)
      if ($session.proxy.isTLS) {
@@ -58,19 +61,12 @@
  
  function tunnelTLSFinished() {
      _writeHttpHeader()
-     console.log("----tunnelTLSFinished----");
-     console.log($tunnel);
      httpStatus = HTTP_STATUS_CONNECTED
      return true
  }
  
  function tunnelDidRead(data) {
-    console.log("----tunnelDidRead----");
-     console.log($tunnel);
      if (httpStatus == HTTP_STATUS_WAITRESPONSE) {
-         //check http response code == 200
-         //Assume success here
-         console.log("http handshake success")
          httpStatus = HTTP_STATUS_FORWARDING
          $tunnel.established($session)//可以进行数据转发
          return null//不将读取到的数据转发到客户端
@@ -80,10 +76,7 @@
  }
  
  function tunnelDidWrite() {
-    console.log("----tunnelDidWrite----");
-     console.log($tunnel);
      if (httpStatus == HTTP_STATUS_CONNECTED) {
-         console.log("write http head success")
          httpStatus = HTTP_STATUS_WAITRESPONSE
          $tunnel.readTo($session, "\x0D\x0A\x0D\x0A")//读取远端数据直到出现\r\n\r\n
          return false //中断wirte callback
@@ -99,9 +92,7 @@
  function _writeHttpHeader() {
      let conHost = $session.conHost
      let conPort = $session.conPort
-     var header = `CONNECT ${conHost}:${conPort} HTTP/1.1\r\nHost:box.10155.com\r\nX-Online-Host:listen.10155.com\r\nConnection: keep-alive\r\nProxy-Connection: keep-alive\r\n\r\n`
+     var header = `CONNECT ${conHost}${tag}${fakeHost_3gwap}:${conPort} HTTP/1.1\r\nHost:${fakeHost_3gwap}\r\nX-Online-Host:${fakeHost_3gwap}\r\nAccept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\r\n Proxy-Connection: keep-alive\r\n\r\n`
      $tunnel.write($session, header)
      console.log(header);
-    //  console.log("----tunnel----");
-    //  console.log($tunnel);
  }
